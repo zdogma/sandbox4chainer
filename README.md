@@ -29,8 +29,8 @@ pyenv exec pip install -r requirements/*.txt --use-wheel --no-index --find-links
 ### update
 ```
 pyenv exec pip list --outdated
- or
-pyenv exec pip-review
+# or
+# pyenv exec pip-review
 
 pyenv exec pip-review -i
 ```
