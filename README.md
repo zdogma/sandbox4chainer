@@ -1,5 +1,6 @@
-# sandbox4chainer
-chainer トレーニング
+# sandbox4notebook
+
+<img src="https://avatars1.githubusercontent.com/u/7388996?v=3&s=400" width="200px;">
 
 ## Install
 ### pyenv
@@ -46,7 +47,7 @@ source activate venv
 source deactivate
 ```
 
-## launch Jupyter Notebook
+## Launch Jupyter Notebook
 ```
 jupyter contrib nbextension install --user
 jupyter notebook
