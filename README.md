@@ -39,3 +39,9 @@ pyenv exec pip-review -i
 ```
 pyenv exec pip wheel --wheel-dir=tmp/wheelhouse -r requirements/dev.txt
 ```
+
+## Activate Vitrualenv
+```
+source activate venv
+source deactivate
+```
