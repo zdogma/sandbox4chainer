@@ -45,3 +45,9 @@ pyenv exec pip wheel --wheel-dir=tmp/wheelhouse -r requirements/dev.txt
 source activate venv
 source deactivate
 ```
+
+## launch Jupyter Notebook
+```
+jupyter contrib nbextension install --user
+jupyter notebook
+```
