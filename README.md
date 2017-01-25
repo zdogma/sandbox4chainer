@@ -20,13 +20,12 @@ pyenv exec pip install pipdeptree
 pyenv exec pip install wheel
 ```
 
-## Setup Requirements
-### load & save
+### libraries
 ```
-pyenv exec pip-compile requirements/dev.in
 pyenv exec pip install -r requirements/*.txt --use-wheel --no-index --find-links=tmp/wheelhouse
 ```
 
+## Setup Requirements
 ### update
 ```
 pyenv exec pip list --outdated
@@ -37,6 +36,11 @@ pyenv exec pip-review -i
 ```
 
 ### compile
+```
+pyenv exec pip-compile requirements/dev.in
+```
+
+### wheel
 ```
 pyenv exec pip wheel --wheel-dir=tmp/wheelhouse -r requirements/dev.txt
 ```
